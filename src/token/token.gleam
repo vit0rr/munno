@@ -2,8 +2,7 @@ pub type TokenType =
   String
 
 pub type Token {
-  Type(TokenType)
-  Literal(String)
+  Token(type_: TokenType, literal: String)
 }
 
 pub const illegal = "ILLEGAL"
